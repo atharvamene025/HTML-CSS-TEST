@@ -1,133 +1,166 @@
-*{
-    font-family: Assistant,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+* {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
 }
 
-.fc-green{
-    color: rgb(22,205,168);
+.fc-green {
+    color: rgb(22, 205, 168);
 }
-.f-18{
+
+.f-18 {
     font-size: 18px;
 }
-.f-12{
+
+.f-12 {
     font-size: 12px;
 }
-.b1{
-    border: 1px solid rgb(223,223,226);
+
+.b1 {
+    border: 1px solid rgb(223, 223, 226);
 }
-.w-145{
+
+.w-145 {
     width: 145px;
 }
 
-.bb-1{
-    border-bottom: 1px solid rgb(223,223,226);
+.bb-1 {
+    border-bottom: 1px solid rgb(223, 223, 226);
 }
-.ps-20{
-    padding: 20px 0px 0px 0px;
+
+.ps-20 {
+    padding: 20px 0px 20px 0px;
 }
-.df-jc{
+
+.df-jc {
     display: flex;
     justify-content: space-between;
 }
-.df{
+
+.df {
     display: flex;
 }
-#account{
+.ps-10{
+    padding: 10px 0px 10px 0px;
+}
+#account {
     /* border: 1px solid black; */
     height: 65px;
     width: 980px;
-    border-bottom: 1px solid rgb(223,223,226);
+    border-bottom: 1px solid rgb(223, 223, 226);
 }
-#content{
+
+#content {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-family: Assistant,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-#container{
+
+#container {
     display: flex;
 }
-#side-panel{
-    border-right: 1px solid rgb(223,223,226);
+
+#side-panel {
+    border-right: 1px solid rgb(223, 223, 226);
     width: 20%;
     height: 700px;
-    
+
 }
-#profile-details{
+
+#profile-details {
     width: 79%;
     margin: 15px;
 }
-#container-body{
+
+#container-body {
     display: flex;
     justify-content: center;
 }
-#container{
+
+#container {
     display: flex;
     justify-content: space-between;
     width: 980px;
     height: 700px;
 }
-#profile-container{
+
+#profile-container {
     padding: 40px;
 }
-#profile-head{
+
+#profile-head {
     font-size: 18px;
     font-weight: bold;
-    border-bottom: 1px solid rgb(223,223,226);
+    border-bottom: 1px solid rgb(223, 223, 226);
 }
-#mobile-no{
-    border: 1px solid rgb(223,223,226);
+
+#mobile-no {
+    border: 1px solid rgb(223, 223, 226);
     width: 675px;
     height: 70px;
     margin-top: 31px;
     padding: 5px;
-    
+
 }
-#change-button{
+
+#change-button {
     margin-top: 18px;
     width: 294px;
     height: 31px;
     background-color: white;
-    border: 1px solid rgb(223,223,226);
+    border: 1px solid rgb(223, 223, 226);
     font-weight: bold;
 }
 
-#gender{
+#gender {
     width: 675px;
     /* border: 1px solid black; */
     margin-top: 20px;
     justify-content: center;
 }
 
-#save-button{
+#save-button {
     font-weight: bold;
     width: 675px;
     height: 40px;
-    background-color: rgb(255,63,108);
+    background-color: rgb(255, 63, 108);
     border: none;
     font-weight: bold;
     color: white;
 }
 
-fieldset{
-    border: 1px solid rgb(223,223,226);
+fieldset {
+    border: 1px solid rgb(223, 223, 226);
 
 }
 
-.gender-button{
+.gender-button {
     width: 50%;
     height: 40px;
     background-color: white;
-    border: 1px solid rgb(223,223,226);
+    border: 1px solid rgb(223, 223, 226);
 }
- 
-input{
+
+input {
     border: none;
 }
 
-.input-b{
-    border: 1px solid rgb(223,223,226);
+.input-b {
+    border: 1px solid rgb(223, 223, 226);
     width: 675px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
     height: 44px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.fc-grey{
+    color: rgb(171,171,185);
+}
+.f15{
+    font-size: 15px;
+}
+
