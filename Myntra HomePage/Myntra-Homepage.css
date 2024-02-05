@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#offer-head{
+    width: 100%;
+    height: 97px;
+}
+
+.img-hw{
+    height: 100%;
+    width: 100%;
+}
+
+#him-her{
+    display: flex;
+
+    
+}
+
+#him{
+    height: 100%;
+
+}
+
+#her{
+    height: 100%;
+    
+}
+#coupouns{
+    text-align: center;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif; 
+    height: 97px;
+}
+#offers-mid{
+    display: flex;
+    height: 129px;
+    justify-content: center;
+}
+#pair-flair{
+    height: 129px;
+}
+#product-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#shop-by-category{
+    
+}
+
+.img-w207{
+    width: 207.6px;
+}
