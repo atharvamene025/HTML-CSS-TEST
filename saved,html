@@ -1,0 +1,53 @@
+<div id="tag-buttons">
+    <button class="tab-buttons bg-black fc-white bold f-16">New Arrivals</button> <button
+        class="tab-buttons bold f-16 bg-white">Best Of Addidas</button>
+</div>
+
+<div id="tab-carousel">
+
+    <div class="scrolling-images"><img class="hw-100" src="Stan_Smith_x_Bape_Shoes_White_IG8949_01_standard.jpg" alt="">
+        <p>Stan Smith X Bape Shoes</p>
+        <p class="fc-light-grey">Shoes</p>
+
+    </div>
+    <div class="scrolling-images"><img class="hw-100" src="Shoe1.jpg" alt="">
+        <p>Stan Smith X Bape </p>
+        <p class="fc-light-grey">Shoes</p>
+    </div>
+    <div class="scrolling-images"><img class="hw-100" src="Adifom_Adilette_Sandals_Blue_IG8437_01_standard.jpg" alt="">
+        <p>Stan Smith X Bape </p>
+        <p class="fc-light-grey">Shoes</p>
+    </div>
+    <div class="scrolling-images"><img class="hw-100" src="OZMILLEN_Shoes_Grey_IF9111_01_standard.jpg" alt="">
+        <p>Stan Smith X Bape</p>
+        <p class="fc-light-grey">Shoes</p>
+    </div>
+    <div class="scrolling-images"><img class="hw-100" src="Nightball-Shoes.jpg" alt="">
+        <p>Stan Smith X Bape</p>
+        <p class="fc-light-grey">Shoes</p>
+    </div>
+
+
+
+</div>
+
+
+
+<div id="tag-buttons">
+    <button class="tab-buttons bg-black fc-white bold f-16">New Arrivals</button> <button
+        class="tab-buttons bold f-16 bg-white">Best Of Addidas</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

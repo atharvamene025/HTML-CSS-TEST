@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
-font-family: Arial, Helvetica, sans-serif   ;
+    font-family: Arial, Helvetica, sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-#wholepage{
+#wholepage {}
 
-}
-#blackstrip{
+#blackstrip {
     background-color: black;
     color: white;
     height: 40px;
@@ -21,14 +21,16 @@ a{
     align-items: center;
     /* position: fixed; */
 }
-#navbar{
+
+#navbar {
     height: 70px;
     display: flex;
     justify-content: space-evenly;
     position: sticky;
     /* border: 3px solid red; */
 }
-#help-login{
+
+#help-login {
     height: 30px;
     /* border: 1px solid red; */
     text-align: right;
@@ -37,85 +39,333 @@ a{
 }
 
 
-#logo{
-width: 25%;
+#logo {
+    width: 25%;
 }
-#logo-img{
+
+#logo-img {
     height: 50px;
     width: 70px;
     padding-left: 30px;
 }
-#navs{
+
+#navs {
     width: 48%;
     display: flex;
-    justify-content:space-evenly ;
+    justify-content: space-evenly;
     align-items: center;
 
-    
+
 }
-#searchbox-navs{
+
+#searchbox-navs {
     width: 27%;
     display: flex;
     align-items: center;
 }
-#searchbox{
+
+#searchbox {
     height: 32px;
-    background-color: rgb(236,239,241);
+    background-color: rgb(236, 239, 241);
     width: 190px;
     margin-right: 15px;
     padding-top: 10px;
     padding-left: 5px;
-    
+
 }
 
-#brand-description{
+#brand-description {
     height: 52px;
-    background-color: rgb(236,239,241);
+    background-color: rgb(236, 239, 241);
     /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-#profile-wishlist-cart{padding-top: 30px;
+#profile-wishlist-cart {
+    padding-top: 30px;
     /* border: 1px solid red;    */
 
 }
 
-#intrested-product{
-    height: 380px;
-    width: 316px;
+#intrested-product {
+    height: 375px;
+    width: 375px;
+    background-image: url("Nightball-Shoes.jpg");
+    background-size: cover;
 }
-.profile-wishlist-cart{
+
+.profile-wishlist-cart {
     height: 48px;
     width: 48px;
 }
-#content{
-    height: 650px;
+
+#content {
     width: 100%;
+    /* border: 3px solid green; */
 }
 
-.content-img{
+#main-commercial {
+    height: 563px;
+    width: 100%;
+    background-image: url("em_in_yougotthis_brand_ss24_mglp_mh_d_f6a4a1e395.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#poster-content {
+    width: 550px;
+    height: 450px;
+    /* border: 1px solid black; */
+    margin-left: 65px;
+   padding-top: 250px;
+  
+}
+
+#price {
+    border: 1px solid;
+    display: flex;
+}
+
+#still-interested {
+    margin: 40px 0px 40px 15px;
+}
+
+#product-card-details {
+    margin-left: 10px;
+
+}
+
+#keywords {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#tag-buttons {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#slide-images {
+    height: 288px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#whats-hot-img {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#bottom-description {
+    height: 500px;
+    background-color: rgb(245, 245, 229);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+
+}
+
+#left-description {
+    width: 43%;
+    padding-top: 40px;
+    word-spacing: 5px;
+    line-height: 22px;
+    color: rgb(56, 45, 20);
+    font-weight: lighter;
+}
+
+#right-description {
+    width: 43%;
+    padding-top: 40px;
+    word-spacing: 5px;
+    line-height: 22px;
+    color: rgb(56, 45, 20);
+    font-weight: lighter;
+
+
+}
+
+#join-addidas {
+    height: 130px;
+    background-color: rgb(237, 231, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up {
+    margin: 50px;
+    height: 50px;
+    width: 220px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#bottom-nav{
+    height: 344px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom-nav-section{
+    height: 324px;
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 129px 0px 129px;
+    
+}
+
+#footer{
+    height: 112px;
+    background-color: rgb(40,44,49);
+    padding: 15px 0px 15px 0px;
+}
+
+.button-shop{
+    height: 50px;
+    background-color: white;
+    font-size: 14px ;
+    width: 194px;
+    font-weight: bold;
+    margin-top: 51px;
+
+
+}
+.mb-17 {
+    margin-bottom: 17px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.slide-img-hw {
+    height: 250px;
+    width: 250px;
+
+
+}
+
+.margin-top-65 {
+    margin-top: 65px;
+}
+
+.content-img {
     height: 100%;
     width: 100%;
 
 }
-.b1{
+
+.b1 {
     border: 1px solid black;
 }
-.bn-on{
+
+.bn-on {
     border: none;
     outline: none;
-    background-color: rgb(236,239,241);
+    background-color: rgb(236, 239, 241);
 }
-.f-13{
+
+.f-13 {
     font-size: 13px;
 }
-.h-100{
+
+.h-100 {
     height: 100%;
     width: 100%;
 }
-.fc-red{
+
+.fc-red {
     color: Red;
+}
+
+.f-40 {
+    font-size: 40px;
+}
+
+.fc-white {
+    color: white;
+}
+
+.keywords-properties {
+    height: 86px;
+    width: 400px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: last baseline;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0px 0px 6.4px;
+}
+
+.tab-buttons {
+    width: 128px;
+    height: 44px;
+    margin: 3px;
+    border: 1px solid black;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bold {
+    font-weight: 750;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+
+.hw-100 {
+    height: 100%;
+    width: 100%;
+}
+
+.fc-light-grey {
+    color: #767677;
+}
+
+.footer-fc{
+    color: rgb(187,185,174);
+}
+.footer-span{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.anchor-b{
+    a{
+        border: 1px solid red;
+    }
+}
+
+li{
+    list-style-type: none;
+    line-height: 25px;
+    font-weight: lighter;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+
 }
