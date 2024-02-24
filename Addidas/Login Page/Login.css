@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    font-size: 16px;
+    word-spacing: 3px;
+}
+
+ul>li {
+    margin-top: 10px;
+}
+
+ul li:before {
+    content: '✓ ';
+}
+
+
+
+#blackstrip {
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+}
+
+#navbar {
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    border-bottom: 1px solid rgb(236, 239, 241);
+}
+
+#logo {
+    width: 25%;
+}
+
+#logo-img {
+    height: 50px;
+    width: 70px;
+    padding-left: 30px;
+}
+
+#navs {
+    width: 48%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+#searchbox-navs {
+    width: 27%;
+    display: flex;
+    align-items: center;
+}
+
+#searchbox {
+    height: 32px;
+    background-color: rgb(236, 239, 241);
+    width: 190px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+
+#profile-wishlist-cart {
+    padding-top: 30px;
+    /* border: 1px solid red;    */
+
+}
+
+
+#help-login {
+    height: 30px;
+    /* border: 1px solid red; */
+    text-align: right;
+    padding: 0px 10px;
+    margin-top: 5px;
+    /* position: fixed; */
+}
+
+#help-login>a {
+    margin-right: 15px;
+}
+
+#account-registration {
+    margin-top: 80px;
+    padding: 0px 110px 40px 110px;
+    display: flex;
+    justify-content: center;
+
+}
+.p-tag{
+    width: 537px;
+    height: 44px;
+}
+#account-left-section {
+    width: 50%;
+    /* height: 100px; */
+
+}
+
+#account-right-section {
+    width: 50%;
+    /* height: 100px; */
+
+}
+
+#right-logo {
+    width: 232px;
+    height: 122px;
+}
+#social-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    
+}
+#social-buttons>button {
+    width: 56px;
+    height: 52px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#social-buttons>button>img{
+    height: 80%;
+    width: 80%;
+}
+
+#terms-conditions{
+    width: 571px;
+    height: 171px;
+    margin-top: 15px;
+   
+}
+
+#terms-conditions>p{
+    margin-left: 25px;
+    margin-top: 10px;
+    
+}
+
+#submit-button{
+    width: 155px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    
+    
+}
+.checkbox{
+    width: 40px;
+    height: 35px;
+    margin-right: 10px;
+}
+.consent-msg{
+ 
+   height: 66px;
+   font-size: 15px;
+   display: flex;
+}
+.login-img-hw {
+    width: 612px;
+    height: 291px;
+}
+
+.profile-wishlist-cart {
+    height: 48px;
+    width: 48px;
+
+}
+
+.mb-17 {
+    margin-bottom: 17px;
+}
+
+.f-18 {
+    font-size: 18px;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+
+.slide-img-hw {
+    height: 250px;
+    width: 250px;
+}
+
+.margin-top-65 {
+    margin-top: 65px;
+}
+
+.content-img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.b1 {
+    border: 1px solid black;
+}
+
+.bn-on {
+    border: none;
+    outline: none;
+    background-color: rgb(236, 239, 241);
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.h-100 {
+    height: 100%;
+    width: 100%;
+}
+
+.fc-red {
+    color: Red;
+}
+
+.f-40 {
+    font-size: 40px;
+}
+
+.fc-white {
+    color: white;
+}
+
+.heading-login {
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-bottom-16 {
+    margin-bottom: 16px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+
+.hw-100 {
+    height: 100%;
+    width: 100%;
+}
+.login-textbox {    
+    width: 571px;
+    height: 53px;
+    margin-top: 20px;
+    
+}
+.footer-fc{
+    color: rgb(187,185,174);
+    padding: 5px;
+}
+.footer-span{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}.mb-17 {
+    margin-bottom: 17px;
+}
+
+
+#bottom-nav{
+    height: 344px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom-nav-section{
+    height: 324px;
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 129px 0px 129px;
+    
+}
+
+#footer{
+    height: 112px;
+    background-color: rgb(40,44,49);
+    padding: 15px 0px 15px 0px;
+}
+#join-addidas {
+    height: 130px;
+    background-color: rgb(237, 231, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up {
+    margin: 50px;
+    height: 50px;
+    width: 220px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
