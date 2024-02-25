@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:adineue PRO;
+    
 }
 
 a {
@@ -14,11 +15,12 @@ a {
     background-color: black;
     color: white;
     height: 40px;
-    font-weight: bold;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
+    font-size: 11px;
+    letter-spacing: 4px;
 }
 
 #navbar {
@@ -78,7 +80,10 @@ a {
 #brand-description {
     height: 52px;
     background-color: rgb(236, 239, 241);
-    /* text-align: center; */
+    font-family: "AdihausDIN";
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,15 +167,19 @@ a {
 }
 
 #slide-images {
-    height: 288px;
+    height: 350px;
     display: flex;
     justify-content: space-between;
-    margin: 5px;
+    
+    overflow-x: scroll;
     /* padding: 5px; */
 }
 #slide-images-hw:hover{
     border: 1px solid black;
 
+}
+#slide-images-hw{
+    margin-right: 10px;
 }
 
 #whats-hot-img {

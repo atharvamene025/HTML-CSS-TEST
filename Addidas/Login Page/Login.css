@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -106,10 +106,12 @@ ul li:before {
     justify-content: center;
 
 }
-.p-tag{
+
+.p-tag {
     width: 537px;
     height: 44px;
 }
+
 #account-left-section {
     width: 50%;
     /* height: 100px; */
@@ -126,12 +128,14 @@ ul li:before {
     width: 232px;
     height: 122px;
 }
-#social-buttons{
+
+#social-buttons {
     display: flex;
     justify-content: space-between;
     width: 30%;
-    
+
 }
+
 #social-buttons>button {
     width: 56px;
     height: 52px;
@@ -139,43 +143,55 @@ ul li:before {
     border: 1px solid black;
 }
 
-#social-buttons>button>img{
+#social-buttons>button>img {
     height: 80%;
     width: 80%;
 }
 
-#terms-conditions{
+#terms-conditions {
     width: 571px;
     height: 171px;
     margin-top: 15px;
-   
+
 }
 
-#terms-conditions>p{
-    margin-left: 25px;
-    margin-top: 10px;
-    
+#terms-conditions>p {
+    /* margin-left: 25px; */
+    /* margin-top: 10px; */
+
 }
 
-#submit-button{
+#submit-button {
     width: 155px;
     height: 50px;
     background-color: black;
     color: white;
-    
-    
+
+
 }
-.checkbox{
+
+.checkbox {
     width: 40px;
     height: 35px;
     margin-right: 10px;
 }
-.consent-msg{
- 
-   height: 66px;
-   font-size: 15px;
-   display: flex;
+
+.consent-msg {
+
+    height: 66px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.consent-msg input {
+    width: 10%;
+}
+
+.consent-msg p {
+    width: 90%;
+}
+
 .login-img-hw {
     width: 612px;
     height: 291px;
@@ -271,47 +287,53 @@ ul li:before {
     height: 100%;
     width: 100%;
 }
-.login-textbox {    
+
+.login-textbox {
     width: 571px;
     height: 53px;
     margin-top: 20px;
-    
+
 }
-.footer-fc{
-    color: rgb(187,185,174);
+
+.footer-fc {
+    color: rgb(187, 185, 174);
     padding: 5px;
 }
-.footer-span{
+
+.footer-span {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     font-size: 12px;
-}.mb-17 {
+}
+
+.mb-17 {
     margin-bottom: 17px;
 }
 
 
-#bottom-nav{
+#bottom-nav {
     height: 344px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#bottom-nav-section{
+#bottom-nav-section {
     height: 324px;
     width: 1010px;
     display: flex;
     justify-content: space-between;
     margin: 0px 129px 0px 129px;
-    
+
 }
 
-#footer{
+#footer {
     height: 112px;
-    background-color: rgb(40,44,49);
+    background-color: rgb(40, 44, 49);
     padding: 15px 0px 15px 0px;
 }
+
 #join-addidas {
     height: 130px;
     background-color: rgb(237, 231, 52);

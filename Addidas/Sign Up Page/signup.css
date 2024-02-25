@@ -48,8 +48,11 @@
     padding-left: 10px;
 }
 
-#terms-conditions{
-
+.consent-msg p{
+    width: 90%;
+}
+.consent-msg input{
+    width: 10%;
 }
 .consent-checkbox{
     height: 24px;
