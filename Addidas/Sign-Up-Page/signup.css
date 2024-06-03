@@ -37,7 +37,7 @@
     margin: 10px;
 }
 
-#social-buttons>button>img{
+.social-buttons-button-img{
     height: 80%;
     width: 80%;
 }

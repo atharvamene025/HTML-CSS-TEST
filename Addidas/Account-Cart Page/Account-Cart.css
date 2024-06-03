@@ -12,7 +12,7 @@
 }
 
 
-#content-page {}
+
 
 #header-section {
     display: flex;
@@ -66,7 +66,7 @@
     width: 55%;
   
     margin-left: 55px;
-    padding: 16px 7px;
+    padding: 30px;
     letter-spacing: 2px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     
@@ -152,8 +152,9 @@
     width: 1010px;
     display: flex;
     justify-content: space-between;
-    margin: 0px 129px 0px 129px;
+    margin: 100px 129px 0px 129px;
     list-style-type: none;
+
     
 }
 #bottom-nav-section a{
